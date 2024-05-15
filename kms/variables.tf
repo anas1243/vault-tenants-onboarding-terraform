@@ -15,5 +15,5 @@ variable "tenants_internal_group" {
 
 data "vault_identity_group" "parent_identity_group" {
   group_name = "vault-admins"
-  namespace = "kms"
+  namespace  = "kms"
 }
